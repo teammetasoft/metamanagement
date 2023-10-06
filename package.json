@@ -4,13 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development  --progress",
-    "build": "webpack watch --mode production",
-    "dev": "webpack-dev-server",
-    "production": "webpack --mode production",
-    "preinstall": "npx npm-force-resolutions",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
+
   "author": "",
   "license": "ISC",
   "dependencies": {
