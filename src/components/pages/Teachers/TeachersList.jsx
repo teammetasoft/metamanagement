@@ -20,7 +20,7 @@ const TeachersList = () => {
         selectedRowKeys,
         onChange: onSelectChange,
     };
-    const datasource = 
+    const datasource =  
     [
  {
    ID : "1",
