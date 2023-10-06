@@ -40,7 +40,7 @@ import InvoiceOverdue from "./components/pages/Invoice/InvoiceOverdue";
 import InvoiceDraft from "./components/pages/Invoice/InvoiceDraft";
 import InvoiceRecurring from "./components/pages/Invoice/InvoiceRecurring";
 import InvoiceCancelled from "./components/pages/Invoice/InvoiceCancelled";
-// import TeachersList from "./components/pages/Teachers/Teacherslist";
+import TeachersList from "./components/pages/Teachers/Teacherslist";
 import TeachersProfile from "./components/pages/Teachers/TeachersProfile";
 import TeachersAdd from "./components/pages/Teachers/TeachersAdd";
 import TeachersEdit from "./components/pages/Teachers/TeachersEdit";
@@ -99,7 +99,7 @@ import FormInputGroups from "./components/pages/Forms/FormInputGroups";
 import FormMask from "./components/pages/Forms/FormMask";
 import FormValidation from "./components/pages/Forms/FormValidation";
 import HorizontalForm from "./components/pages/Forms/HorizontalForm";
-// import VerticalForm from "./components/pages/forms/VerticalForm";
+import VerticalForm from "./components/pages/forms/VerticalForm";
 import FeatherIcons from "./components/pages/Icons/Feather";
 import FlagIcons from "./components/pages/Icons/Flag";
 import FontawesomeIcons from "./components/pages/Icons/Font-awesome";
@@ -127,7 +127,7 @@ import FlotCharts from "./components/pages/Charts/FlotChart";
 import PeityChart from "./components/pages/Charts/PeityChart";
 import C3Charts from "./components/pages/Charts/C3Chart";
 import ClipBoard from "./components/pages/Elements/ClipBoard";
-// import UiTooltip from "./components/pages/Base UI/tooltip";
+import UiTooltip from "./components/pages/Base UI/tooltip";
 import Toastr from "./components/pages/Base UI/Toast";
 import Spinner from "./components/pages/Base UI/Spinner";
 import PopOver from "./components/pages/Base UI/PopOver";
@@ -222,7 +222,7 @@ const appcontainer = (props) => {
         <Route path="/addbook" component={AddBook} />
         <Route path="/editbook" component={EditBook} />
 
-        {/* <Route path="/teacherslist" component={TeachersList} /> */}
+        <Route path="/teacherslist" component={TeachersList} />
         <Route path="/teachersprofile" component={TeachersProfile} />
         <Route path="/addteacher" component={TeachersAdd} />
         <Route path="/editteacher" component={TeachersEdit} />
@@ -282,7 +282,7 @@ const appcontainer = (props) => {
         <Route path="/formmask" component={FormMask} />
         <Route path="/formvalidation" component={FormValidation} />
         <Route path="/horizontalform" component={HorizontalForm} />
-        {/* <Route path="/verticalform" component={VerticalForm} /> */}
+        <Route path="/verticalform" component={VerticalForm} />
 
         <Route path="/feathericons" component={FeatherIcons} />
         <Route path="/flagicons" component={FlagIcons} />
@@ -316,7 +316,7 @@ const appcontainer = (props) => {
         <Route path="/peitychart" component={PeityChart} />
         <Route path="/c3chart" component={C3Charts} />
 
-        {/* <Route path="/tooltip" component={UiTooltip} /> */}
+        <Route path="/tooltip" component={UiTooltip} />
         <Route path="/toast" component={Toastr} />
         <Route path="/spinner" component={Spinner} />
         <Route path="/popover" component={PopOver} />
